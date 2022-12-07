@@ -38,7 +38,7 @@ Namespace CharsRemainingCounter
 		''' Auto-generated field.
 		''' To modify move field declaration from designer file to code-behind file.
 		''' </remarks>
-		Protected tbTextBox As Global.DevExpress.Web.ASPxEditors.ASPxTextBox
+		Protected tbTextBox As Global.DevExpress.Web.ASPxTextBox
 
 		''' <summary>
 		''' tbTextBox_cr control.
@@ -47,7 +47,7 @@ Namespace CharsRemainingCounter
 		''' Auto-generated field.
 		''' To modify move field declaration from designer file to code-behind file.
 		''' </remarks>
-		Protected tbTextBox_cr As Global.DevExpress.Web.ASPxEditors.ASPxLabel
+		Protected tbTextBox_cr As Global.DevExpress.Web.ASPxLabel
 
 		''' <summary>
 		''' txtMemo control.
@@ -56,7 +56,7 @@ Namespace CharsRemainingCounter
 		''' Auto-generated field.
 		''' To modify move field declaration from designer file to code-behind file.
 		''' </remarks>
-		Protected txtMemo As Global.DevExpress.Web.ASPxEditors.ASPxMemo
+		Protected txtMemo As Global.DevExpress.Web.ASPxMemo
 
 		''' <summary>
 		''' txtMemo_cr control.
@@ -65,6 +65,6 @@ Namespace CharsRemainingCounter
 		''' Auto-generated field.
 		''' To modify move field declaration from designer file to code-behind file.
 		''' </remarks>
-		Protected txtMemo_cr As Global.DevExpress.Web.ASPxEditors.ASPxLabel
+		Protected txtMemo_cr As Global.DevExpress.Web.ASPxLabel
 	End Class
 End Namespace

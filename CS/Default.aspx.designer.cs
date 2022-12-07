@@ -35,7 +35,7 @@ namespace CharsRemainingCounter {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxTextBox tbTextBox;
+        protected global::DevExpress.Web.ASPxTextBox tbTextBox;
         
         /// <summary>
         /// tbTextBox_cr control.
@@ -44,7 +44,7 @@ namespace CharsRemainingCounter {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxLabel tbTextBox_cr;
+        protected global::DevExpress.Web.ASPxLabel tbTextBox_cr;
         
         /// <summary>
         /// txtMemo control.
@@ -53,7 +53,7 @@ namespace CharsRemainingCounter {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxMemo txtMemo;
+        protected global::DevExpress.Web.ASPxMemo txtMemo;
         
         /// <summary>
         /// txtMemo_cr control.
@@ -62,6 +62,6 @@ namespace CharsRemainingCounter {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxLabel txtMemo_cr;
+        protected global::DevExpress.Web.ASPxLabel txtMemo_cr;
     }
 }
