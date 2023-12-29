@@ -1,8 +1,3 @@
-<!-- default badges list -->
-![](https://img.shields.io/endpoint?url=https://codecentral.devexpress.com/api/v1/VersionRange/128531790/13.1.4%2B)
-[![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/E1424)
-[![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
-<!-- default badges end -->
 <!-- default file list -->
 *Files to look at*:
 
@@ -10,9 +5,6 @@
 * [Default.aspx.cs](./CS/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/Default.aspx.vb))
 <!-- default file list end -->
 # How to implement the "characters remaining" functionality for ASPxTextBox and ASPxMemo using MaxLength
-<!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/e1424/)**
-<!-- run online end -->
 
 
 <p>When inputting a value into a text box whose maximum length is limited, it could be useful for end-users to know how many characters they still can type. This example demonstrates how to implement this feature.</p><p>The number of remaining characters is printed on a label near the editor. In this example we're using the MaxLength property of the ASPxTextBox, which allows us to specify the maximum length of the ASPxTextBox control. However, the ASPxMemo does not have this property, because the <textarea> HTML element doesnt support a native maxlength attribute. That's why the MaxLength-functionality for the ASPxMemo is implemented here in a roundabout way using a timer to check every 50ms of the memo text's length and trim the text if necessary.</p><p>See also:<br />
